@@ -9,6 +9,7 @@ import SearchResults from "./views/SearchResults";
 import { getByCategory, getFromLocalStorage } from "./store/recipeSlice";
 import { useDispatch } from "react-redux";
 import Favorites from "./views/Favorites";
+import Footer from "./components/Footer";
 function App() {
   const dispatch = useDispatch();
   useEffect(() => {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/results" element={<SearchResults />} />
         <Route path="/favorites" element={<Favorites />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
