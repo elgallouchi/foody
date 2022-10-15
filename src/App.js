@@ -10,6 +10,7 @@ import { getByCategory, getFromLocalStorage } from "./store/recipeSlice";
 import { useDispatch } from "react-redux";
 import Favorites from "./views/Favorites";
 import Footer from "./components/Footer";
+import Area from "./views/Area";
 function App() {
   const dispatch = useDispatch();
   useEffect(() => {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/article" element={<Article />} />
         <Route path="/results" element={<SearchResults />} />
         <Route path="/favorites" element={<Favorites />} />
+        <Route path="/area-recipes" element={<Area />} />
       </Routes>
       <Footer />
     </Router>
