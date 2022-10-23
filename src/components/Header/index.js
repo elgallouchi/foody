@@ -17,14 +17,14 @@ export default function Header() {
       <header>
         <div className="container">
           <h1>
-            <Link to="/">
+            <Link to="/food-recipes">
               <SiJusteat /> Food Recipes
             </Link>
           </h1>
           <nav>
             <ul className={`desktop ${!openMenu ? "hidden" : ""}`}>
               <li>
-                <Link onClick={() => toggleMenu()} to="/">
+                <Link onClick={() => toggleMenu()} to="/food-recipes">
                   Home
                 </Link>
               </li>

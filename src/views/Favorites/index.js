@@ -24,7 +24,7 @@ export default function Favorites() {
             !localState.length ? (
               <div className="no-favorites">
                 <p>you dont have recipe favorite</p>
-                go to home <Link to="/">home</Link>
+                go to home <Link to="/food-recipes">home</Link>
               </div>
             ) : (
               localState.map((card) => (
