@@ -1,0 +1,52 @@
+main {
+}
+main > #search-results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+}
+main > #search-results > .container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+main > #search-results > .container > .search-results-items {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 480px) {
+  main > #search-results > .container > .search-results-items {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .sidebar > .container {
+    width: 100%;
+  }
+  main > #search-results > .container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  main > #search-results > .container {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1rem;
+    max-width: 1024px;
+  }
+  .sidebar > .container > .random-recipe > img {
+    height: 100%;
+  }
+  .search-results-items {
+    width: 75%;
+  }
+  .search-results-items .recipe-item {
+    width: 48%;
+  }
+}
