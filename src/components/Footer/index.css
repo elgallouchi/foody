@@ -1,0 +1,89 @@
+footer {
+  /* max-width: 1080px; */
+}
+footer > .info {
+  background-color: var(--black);
+
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+footer > .info > .container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  max-width: 1024px;
+  color: var(--white);
+}
+footer > .info > .container > ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+footer > .info > .container > ul > li {
+  /* width: 47%; */
+  font-size: 0.7rem;
+}
+footer > .info > .container > ul > li > a {
+  color: var(--white);
+  color: #ddd;
+  text-transform: capitalize;
+  text-transform: uppercase;
+  padding: 0.5rem 0;
+}
+
+/* copyright */
+footer > .copyright {
+  background-color: var(--pink);
+  display: flex;
+  justify-content: center;
+  color: var(--white);
+  font-size: 0.8rem;
+}
+footer > .copyright > .container {
+  width: 90%;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1024px;
+  flex-direction: column-reverse;
+  gap: 1rem;
+}
+
+footer > .copyright > .container > span {
+  display: flex;
+  gap: 0.5rem;
+}
+footer > .copyright > .container > span > a > svg {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+footer > .copyright > .container > span > a > svg:hover {
+  color: var(--yellow);
+}
+footer > .copyright > .container > span > a {
+  color: var(--white);
+}
+
+/* Media Queries */
+@media screen and (min-width: 480px) {
+  footer > .copyright > .container {
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 768px) {
+  footer > .info > .container > ul {
+    flex-direction: row;
+    width: max-content;
+  }
+  footer > .info > .container > ul > li {
+  }
+  footer > .info > .container > ul > li > a {
+  }
+}

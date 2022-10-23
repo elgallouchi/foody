@@ -1,0 +1,99 @@
+@font-face {
+  src: url("../../fonts/DancingScript-Medium.ttf");
+  font-family: "Dancing Script";
+  font-display: swap;
+}
+header {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--pink);
+}
+header > .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+}
+header > .container > h1 {
+  font-family: "Dancing Script", "sans-serif";
+  font-weight: bold;
+}
+header > .container > h1 > a {
+  color: var(--white);
+  display: flex;
+  align-items: flex-start;
+  gap: 0.7rem;
+}
+header > .container > nav {
+}
+
+header > .container > nav {
+}
+header > .container > nav > svg {
+  font-size: 2rem;
+  cursor: pointer;
+  border: 2px solid;
+  color: var(--white);
+  border-radius: 0.3rem;
+  padding: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header > .container > nav > ul {
+  position: absolute;
+  top: 4rem;
+  background-color: #222;
+  left: 0;
+  width: 100%;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+}
+header > .container > nav > ul.hidden {
+  left: -100%;
+}
+header ul > li {
+  font-size: 1.2rem;
+}
+header ul > li > a {
+  color: var(--white);
+}
+
+/* Media queries */
+@media screen and (min-width: 480px) {
+}
+@media screen and (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: center;
+  }
+  header > .container {
+    max-width: 1024px;
+  }
+  header > .container > nav > ul.desktop {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    padding: 0;
+  }
+  header > .container > nav > ul.desktop > li > a {
+    padding: 0.5rem 1rem;
+  }
+  header > .container > nav > ul.desktop > li > a:hover {
+    /* background-color: deeppink; */
+    border-bottom: 2px solid var(--white);
+  }
+  header > .container > nav > svg {
+    display: none;
+  }
+}

@@ -1,0 +1,70 @@
+.recipe-item {
+  position: relative;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  width: 100%;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.recipe-item img {
+  width: 100%;
+  height: 9rem;
+  object-fit: cover;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+.recipe-item h3 {
+  padding: 1rem;
+}
+.recipe-item > .btn-read-article {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.recipe-item > .btn-read-article > .read-article {
+  /* background-color: #ffb80077; */
+  padding: 0.5rem 1rem;
+  border: 1px dashed;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  font-weight: bold;
+  color: var(--pink);
+  text-align: center;
+  width: 100%;
+}
+.recipe-item > .btn-read-article > .btn-favorite {
+  cursor: pointer;
+  /* color: var(--pink); */
+  background: #fff;
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 0.3rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 2rem;
+  height: 2rem;
+}
+.recipe-item > .btn-read-article > .btn-favorite:hover {
+  color: #444;
+}
+.recipe-item > .btn-read-article > .btn-favorite.added {
+  color: var(--pink);
+}
+.recipe-item > .btn-read-article > .btn-favorite.added:hover {
+  color: #c63328;
+}
+
+/* Medai queries */
+@media screen and (min-width: 480px) {
+  .recipe-item {
+    width: 48%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .recipe-item {
+    /* width: 48.10%;  */
+  }
+  .recipe-item > img {
+    height: 13rem;
+  }
+}

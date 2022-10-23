@@ -1,0 +1,27 @@
+.sidebar {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sidebar > .container {
+  width: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.sidebar > .container > .form-search {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 0.3rem;
+  padding: 1rem;
+  background: #333;
+}
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
+  .sidebar {
+    max-width: 25%;
+  }
+}
