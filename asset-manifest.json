@@ -1,14 +1,14 @@
 {
-  "main.css": "/countries-api/static/css/main.5ca61ffd.chunk.css",
-  "main.js": "/countries-api/static/js/main.509e4b61.chunk.js",
-  "main.js.map": "/countries-api/static/js/main.509e4b61.chunk.js.map",
-  "static/js/1.651a43fe.chunk.js": "/countries-api/static/js/1.651a43fe.chunk.js",
-  "static/js/1.651a43fe.chunk.js.map": "/countries-api/static/js/1.651a43fe.chunk.js.map",
-  "runtime~main.js": "/countries-api/static/js/runtime~main.1ae07740.js",
-  "runtime~main.js.map": "/countries-api/static/js/runtime~main.1ae07740.js.map",
-  "static/media/index.css": "/countries-api/static/media/DancingScript-Medium.d903e1ae.ttf",
-  "static/css/main.5ca61ffd.chunk.css.map": "/countries-api/static/css/main.5ca61ffd.chunk.css.map",
-  "index.html": "/countries-api/index.html",
-  "precache-manifest.e527d909b8f57399c4efcf0b69f59053.js": "/countries-api/precache-manifest.e527d909b8f57399c4efcf0b69f59053.js",
-  "service-worker.js": "/countries-api/service-worker.js"
+  "main.css": "/food-recipes/static/css/main.8f8f5b87.chunk.css",
+  "main.js": "/food-recipes/static/js/main.cbc2280c.chunk.js",
+  "main.js.map": "/food-recipes/static/js/main.cbc2280c.chunk.js.map",
+  "static/js/1.651a43fe.chunk.js": "/food-recipes/static/js/1.651a43fe.chunk.js",
+  "static/js/1.651a43fe.chunk.js.map": "/food-recipes/static/js/1.651a43fe.chunk.js.map",
+  "runtime~main.js": "/food-recipes/static/js/runtime~main.99f9904b.js",
+  "runtime~main.js.map": "/food-recipes/static/js/runtime~main.99f9904b.js.map",
+  "static/media/index.css": "/food-recipes/static/media/DancingScript-Medium.d903e1ae.ttf",
+  "static/css/main.8f8f5b87.chunk.css.map": "/food-recipes/static/css/main.8f8f5b87.chunk.css.map",
+  "index.html": "/food-recipes/index.html",
+  "precache-manifest.6a99e2c0498749af87659606adc7c509.js": "/food-recipes/precache-manifest.6a99e2c0498749af87659606adc7c509.js",
+  "service-worker.js": "/food-recipes/service-worker.js"
 }
