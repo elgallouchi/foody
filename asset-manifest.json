@@ -1,14 +1,14 @@
 {
-  "main.css": "/foody/static/css/main.6e72a739.chunk.css",
-  "main.js": "/foody/static/js/main.75e0afaf.chunk.js",
-  "main.js.map": "/foody/static/js/main.75e0afaf.chunk.js.map",
+  "main.css": "/foody/static/css/main.1314db6a.chunk.css",
+  "main.js": "/foody/static/js/main.91cc9635.chunk.js",
+  "main.js.map": "/foody/static/js/main.91cc9635.chunk.js.map",
   "static/js/1.651a43fe.chunk.js": "/foody/static/js/1.651a43fe.chunk.js",
   "static/js/1.651a43fe.chunk.js.map": "/foody/static/js/1.651a43fe.chunk.js.map",
   "runtime~main.js": "/foody/static/js/runtime~main.f66ee644.js",
   "runtime~main.js.map": "/foody/static/js/runtime~main.f66ee644.js.map",
   "static/media/index.css": "/foody/static/media/DancingScript-Medium.d903e1ae.ttf",
-  "static/css/main.6e72a739.chunk.css.map": "/foody/static/css/main.6e72a739.chunk.css.map",
+  "static/css/main.1314db6a.chunk.css.map": "/foody/static/css/main.1314db6a.chunk.css.map",
   "index.html": "/foody/index.html",
-  "precache-manifest.1a72e8ef7f432612395d00b6c6d5a27c.js": "/foody/precache-manifest.1a72e8ef7f432612395d00b6c6d5a27c.js",
+  "precache-manifest.edd23b6ccf3f4e21ecadeada8bd7e28a.js": "/foody/precache-manifest.edd23b6ccf3f4e21ecadeada8bd7e28a.js",
   "service-worker.js": "/foody/service-worker.js"
 }
