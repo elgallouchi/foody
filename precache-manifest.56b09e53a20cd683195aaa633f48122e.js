@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "709153408e223cba9785",
+    "revision": "146ce343baa98d78c0b2",
     "url": "/foody/static/css/main.1314db6a.chunk.css"
   },
   {
-    "revision": "709153408e223cba9785",
-    "url": "/foody/static/js/main.70915340.chunk.js"
+    "revision": "146ce343baa98d78c0b2",
+    "url": "/foody/static/js/main.146ce343.chunk.js"
   },
   {
     "revision": "651a43fe9a9804d9bf01",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/foody/static/media/DancingScript-Medium.d903e1ae.ttf"
   },
   {
-    "revision": "5385847c93b7582f02fbca1447c6a931",
+    "revision": "6c23d02bd683a340b38228bca40a1b32",
     "url": "/foody/index.html"
   }
 ];
