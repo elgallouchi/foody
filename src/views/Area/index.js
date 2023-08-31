@@ -30,7 +30,7 @@ export default function Area() {
             allArea.map((area, index) => (
               <li key={index} onClick={() => btnToCategory(area.strArea)}>
                 <img
-                  src={`/assets/flags/${
+                  src={`/foody/assets/flags/${
                     area.strArea === "Unknown" ? "reste" : area.strArea
                   }.svg`}
                   alt={area.strArea === "Unknown" ? "reste" : area.strArea}

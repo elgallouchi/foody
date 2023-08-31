@@ -35,7 +35,9 @@ export default function Home() {
       {/* Hero section */}
       <section
         id="hero"
-        style={{ backgroundImage: `url("/assets/images/perfect-arepas.jpg")` }}
+        style={{
+          backgroundImage: `url("/foody/assets/images/perfect-arepas.jpg")`,
+        }}
       >
         <div className="background-hero">
           <div className="container">
@@ -57,7 +59,11 @@ export default function Home() {
             {countries.map((area, index) => (
               <Link to={`/foody/results?q=a&search=${area}`} key={index}>
                 <div className="area-item">
-                  <img src={`/assets/flags/${area}.svg`} loading="lazy" alt={area} />
+                  <img
+                    src={`/foody/assets/flags/${area}.svg`}
+                    loading="lazy"
+                    alt={area}
+                  />
                   <h3>{area}</h3>
                 </div>
               </Link>
