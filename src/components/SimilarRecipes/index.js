@@ -21,7 +21,7 @@ export default function SimilarRecipes() {
           ) : (
             similarRecipe.slice(0, 3).map((element) => (
               <div className="similar-recipes-item" key={element.idMeal}>
-                <Link to={`/article?p=${element.idMeal}`}>
+                <Link to={`/foody/article?p=${element.idMeal}`}>
                   <img
                     src={element.strMealThumb}
                     loading="lazy"

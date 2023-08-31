@@ -18,7 +18,7 @@ export default function CardPost({ title, img, id }) {
       <h3>{title}</h3>
       <div className="btn-read-article">
         <Link
-          to={`/article?p=${idMeal}
+          to={`/foody/article?p=${idMeal}
         `}
           className="read-article"
         >

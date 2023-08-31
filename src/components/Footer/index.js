@@ -12,10 +12,10 @@ export default function Footer() {
         <div className="container">
           <ul>
             <li>
-              <Link to="/favorites">My Favorites</Link>
+              <Link to="/foody/favorites">My Favorites</Link>
             </li>
             <li>
-              <Link to="/area-recipes">Area Recipes</Link>
+              <Link to="/foody/area-recipes">Area Recipes</Link>
             </li>
             <li>
               <a href="#recipes">Ingredients</a>

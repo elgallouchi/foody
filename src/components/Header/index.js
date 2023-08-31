@@ -17,24 +17,24 @@ export default function Header() {
       <header>
         <div className="container">
           <h1>
-            <Link to="/food-recipes">
+            <Link to="/foody">
               <SiJusteat /> Food Recipes
             </Link>
           </h1>
           <nav>
             <ul className={`desktop ${!openMenu ? "hidden" : ""}`}>
               <li>
-                <Link onClick={() => toggleMenu()} to="/food-recipes">
+                <Link onClick={() => toggleMenu()} to="/foody">
                   Home
                 </Link>
               </li>
               <li>
-                <Link onClick={() => toggleMenu()} to="/area-recipes">
+                <Link onClick={() => toggleMenu()} to="/foody/area">
                   Area
                 </Link>
               </li>
               <li>
-                <Link onClick={() => toggleMenu()} to="/favorites">
+                <Link onClick={() => toggleMenu()} to="/foody/favorites">
                   Favorites
                 </Link>
               </li>

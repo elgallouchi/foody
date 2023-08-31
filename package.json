@@ -1,6 +1,6 @@
 {
-  "homepage": "http://HassanElgallouchi.github.io/food-recipes",
-  "name": "food-recipes",
+  "homepage": "http://HassanElgallouchi.github.io/foody",
+  "name": "foody",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

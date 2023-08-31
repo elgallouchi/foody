@@ -151,7 +151,7 @@ export default function Article() {
 
                       <span>
                       <Link
-                        to={`/results?q=c&search=${oneArticle &&
+                        to={`/foody/results?q=c&search=${oneArticle &&
                           oneArticle.strCategory}`}
                           >
                         {oneArticle && oneArticle.strCategory}

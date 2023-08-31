@@ -26,7 +26,7 @@ export default function Home() {
   // redirection to category
   const btnToCategory = ({ option, text }) => {
     navigate({
-      pathname: "/results",
+      pathname: "/foody/results",
       search: `?q=${option}&search=${text}`,
     });
   };
@@ -55,7 +55,7 @@ export default function Home() {
           <h2>Area Recipes</h2>
           <div className="area-items">
             {countries.map((area, index) => (
-              <Link to={`/results?q=a&search=${area}`} key={index}>
+              <Link to={`/foody/results?q=a&search=${area}`} key={index}>
                 <div className="area-item">
                   <img src={`/assets/flags/${area}.svg`} loading="lazy" alt={area} />
                   <h3>{area}</h3>
