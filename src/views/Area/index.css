@@ -29,8 +29,8 @@ main#area > .container > ul > li {
   border-radius: 0.3rem;
   cursor: pointer;
 }
-main#area > .container > ul > li {
-}
+/* main#area > .container > ul > li {
+} */
 main#area > .container > ul > li > img {
   border-radius: 0.3rem 0.3rem 0 0;
   width: 100%;

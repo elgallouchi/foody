@@ -16,7 +16,7 @@ export default function Area() {
   // redirection to category
   const btnToCategory = (areaName) => {
     navigate({
-      pathname: "/results",
+      pathname: "/foody/results",
       search: `?q=a&search=${areaName}`,
     });
   };

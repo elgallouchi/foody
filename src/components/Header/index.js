@@ -18,7 +18,7 @@ export default function Header() {
         <div className="container">
           <h1>
             <Link to="/foody">
-              <SiJusteat /> Food Recipes
+              <SiJusteat /> Foody
             </Link>
           </h1>
           <nav>

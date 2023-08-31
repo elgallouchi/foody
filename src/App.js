@@ -21,11 +21,11 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/article" element={<Article />} />
-        <Route path="/results" element={<SearchResults />} />
-        <Route path="/favorites" element={<Favorites />} />
-        <Route path="/area-recipes" element={<Area />} />
+        <Route path="/foody/" element={<Home />} />
+        <Route path="/foody/article" element={<Article />} />
+        <Route path="/foody/results" element={<SearchResults />} />
+        <Route path="/foody/favorites" element={<Favorites />} />
+        <Route path="/foody/area" element={<Area />} />
       </Routes>
       <Footer />
     </Router>
