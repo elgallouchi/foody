@@ -17,7 +17,7 @@ export default function Article() {
   const dispatch = useDispatch();
   const [searchParams] = useSearchParams();
   const idMeal = parseInt(searchParams.get("p"));
-
+console.log(idMeal)
   useEffect(() => {
     dispatch(getById(idMeal));
   }, [dispatch, localState, idMeal]);

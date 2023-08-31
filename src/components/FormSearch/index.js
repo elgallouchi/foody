@@ -13,7 +13,7 @@ export default function FormSearch() {
       alert("Please select a option");
     } else {
       navigate({
-        pathname: "/results",
+        pathname: "/foody/results",
         search: `?q=${option}&search=${text}`,
       });
     }

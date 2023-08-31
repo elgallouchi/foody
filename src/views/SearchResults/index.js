@@ -11,9 +11,10 @@ export default function index() {
   const { articles, loading } = useSelector((state) => state.recipe);
   const [searchParams] = useSearchParams();
 
+  const query = searchParams.get("q");
+  const text = searchParams.get("search");
+
   useEffect(() => {
-    const query = searchParams.get("q");
-    const text = searchParams.get("search");
     dispatch(getBySearch({ query, text }));
   }, [dispatch, searchParams]);
 
@@ -28,14 +29,16 @@ export default function index() {
             ) : articles === null ? (
               <div className="not-results-found">No Result Found</div>
             ) : (
-              articles.map((card) => (
-                <CardPost
-                  key={card.idMeal}
-                  id={card.idMeal}
-                  img={card.strMealThumb}
-                  title={card.strMeal}
-                />
-              ))
+              <>
+                {articles.map((card) => (
+                  <CardPost
+                    key={card.idMeal}
+                    id={card.idMeal}
+                    img={card.strMealThumb}
+                    title={card.strMeal}
+                  />
+                ))}
+              </>
             )}
           </div>
         </div>
